@@ -1,2 +1,18 @@
-<img width="756" alt="image" src="https://user-images.githubusercontent.com/109068002/234494947-dfa959d8-dccb-487e-896c-1fffe10e81db.png">
+String in C
+The string can be defined as the one-dimensional array of characters terminated by a null ('\0'). The character array or the string is used to manipulate text such as word or sentences. Each character in the array occupies one byte of memory, and the last character must always be 0. The termination character ('\0') is important in a string since it is the only way to identify where the string ends. When we define a string as char s[10], the character s[10] is implicitly initialized with the null in the memory.
+
+There are two ways to declare a string in c language.
+
+By char array
+By string literal
+String-Reverse
+Reversing a string means the string that will be given by the user to your program in a specific sequence will get entirely reversed when the reverse of a string algorithm gets implemented in that particular input string.
+
+image
+
+Algorithm
+Ask user to input a string to be reversed.
+Store it in an array.
+Calculate the length of the string by using the strlen function.
+Apply a for loop from (counter variable= length-1) initially and decrementing the value till (counter variable>=0) , printing the array in reverse.
 
